@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Leaf, BookOpen, Heart } from 'lucide-react'
+import { BookOpen, Heart, Leaf } from 'lucide-react'
 import { personalInfo } from '../data/data'
 
 const highlights = [
@@ -26,16 +26,13 @@ export default function About() {
             transition={{ duration: 0.7 }}
             className="relative flex justify-center"
           >
-            {/* Placeholder de imagen — reemplazar con <img src="..." /> */}
             <div className="relative">
-              <div className="w-72 h-72 md:w-80 md:h-80 rounded-3xl bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center shadow-2xl shadow-emerald-200">
-                <div className="text-center text-white">
-                  <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Leaf size={56} className="text-white" />
-                  </div>
-                  <p className="text-sm font-medium opacity-80">Foto de perfil</p>
-                  <p className="text-xs opacity-60">Reemplazar imagen</p>
-                </div>
+              <div className="w-72 h-72 md:w-80 md:h-80 rounded-3xl shadow-2xl shadow-emerald-200 overflow-hidden ring-4 ring-emerald-100">
+                <img
+                  src="/profile.png"
+                  alt="Dévora Aylén De Ferrari"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
 
               {/* Tarjeta flotante */}

@@ -5,7 +5,8 @@
 export const personalInfo = {
   name: "Dévora Aylén De Ferrari",
   titles: [
-    "Ingeniera en Recursos Naturales y Medio Ambiente",
+    "Ingeniera en Recursos Naturales y Medio Ambiente - UNLPam",
+    "Capacitación Pedagógica para Profesionales y Técnicos - ISFD Colonia Barón",
     "Profesora en Ciencias Biológicas (en formación) — UNLPam",
     "Profesora en Química (en formación) — UNLPam",
   ],

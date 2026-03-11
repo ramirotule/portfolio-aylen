@@ -34,7 +34,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/20 border border-emerald-400/30 rounded-full text-emerald-300 text-sm font-medium mb-8"
         >
           <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
-          Docente & Investigadora en Ciencias
+          Ingenieria En Recursos Naturales y Medio Ambiente
         </motion.div>
 
         {/* Nombre */}
