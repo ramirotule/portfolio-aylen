@@ -51,6 +51,7 @@ export default function Contact() {
           {/* Email */}
           <a
             href={`mailto:${personalInfo.email}`}
+            data-umami-event="contact-email-click"
             className="flex items-center gap-4 p-5 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-emerald-400/40 rounded-2xl transition-all duration-200 group flex-1 min-w-fit"
           >
             <div className="w-11 h-11 bg-emerald-500/20 rounded-xl flex items-center justify-center group-hover:bg-emerald-500/30 transition-colors">
@@ -67,6 +68,7 @@ export default function Contact() {
             href={personalInfo.linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            data-umami-event="contact-linkedin-click"
             className="flex items-center gap-4 p-5 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-blue-400/40 rounded-2xl transition-all duration-200 group flex-1 min-w-fit"
           >
             <div className="w-11 h-11 bg-blue-500/20 rounded-xl flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
@@ -99,6 +101,7 @@ export default function Contact() {
         >
           <a
             href={`mailto:${personalInfo.email}`}
+            data-umami-event="contact-send-message-click"
             className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-white rounded-xl font-semibold text-lg transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-0.5"
           >
             <Send size={20} />
