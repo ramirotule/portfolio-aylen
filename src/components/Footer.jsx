@@ -30,6 +30,18 @@ export default function Footer() {
           <a href="#contacto" className="text-gray-500 hover:text-emerald-400 text-xs transition-colors">Contacto</a>
         </div>
       </div>
+
+      <p className="mt-6 pt-6 border-t border-slate-800 text-center text-gray-500 text-xs">
+        Desarrollado por{' '}
+        <a
+          href="https://www.flowsync.com.ar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-emerald-400 hover:text-emerald-300 transition-colors font-medium"
+        >
+          FlowSync
+        </a>
+      </p>
     </footer>
   )
 }
